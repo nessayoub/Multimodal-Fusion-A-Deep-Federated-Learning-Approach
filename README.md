@@ -5,6 +5,7 @@
 ### Pipeline Overview
 Figure 1 illustrates the pipeline of our proposed model for disaster event classification utilizing social media analysis. The approach comprises three main components: feature extraction, multimodal data fusion, and deep federated learning process. I will elaborate on each phase in the subsequent subsections.
 
+![Sample Figure](https://github.com/nessayoub/Multimodal-Fusion-A-Deep-Federated-Learning-Approach/blob/main/Picture1%20copy.png)
 ### 3.1 Dataset Preparation
 I utilize the MEDIC dataset, which comprises 5831 image-tweet pairs divided into training (5247 samples) and test (584 samples) sets. Notably, the dataset exhibits class imbalance, with the majority of samples falling under the non-damage category (2975 cases). We preprocess images, resize them to 228x228x3 dimensions, and normalize pixel values to a range of [0, 1]. Various augmentation techniques are employed to enrich the dataset.
 
